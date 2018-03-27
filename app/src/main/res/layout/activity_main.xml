@@ -17,8 +17,30 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginLeft="5dp"
+            android:src="@mipmap/ig_camera"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instagram"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/Billabong"
+            android:textSize="30dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@mipmap/ig_dm"/>
 
     </RelativeLayout>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
 
 </>
