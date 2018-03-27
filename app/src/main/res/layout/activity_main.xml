@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:text="Instagram"
             android:layout_centerInParent="true"
-            android:fontFamily="@font/Billabong"
+            android:fontFamily="@font/billabong"
             android:textSize="30dp"/>
 
         <ImageView
@@ -42,5 +42,4 @@
         android:layout_width="match_parent"
         android:layout_height="0.5dp"/>
 
-
-</>
+</LinearLayout>
